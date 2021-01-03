@@ -1,7 +1,10 @@
 {
 		"extends": "@tsconfig/svelte/tsconfig.json",
 		"compilerOptions": {
-			"lib": ["DOM", "ES2017", "WebWorker"]
+      "lib": ["DOM", "ES2017", "esnext", "WebWorker"],
+      "module": "esnext",
+      "target": "esnext",
+      "sourceMap": false
 		},
 		"include": ["src/**/*", "src/node_modules/**/*"],
 		"exclude": ["node_modules/*", "__sapper__/*", "static/*"]

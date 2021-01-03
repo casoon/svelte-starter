@@ -1,0 +1,10 @@
+name = "svelte-starter"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = "./__sapper__/export"
+entry-point = "workers-site"
